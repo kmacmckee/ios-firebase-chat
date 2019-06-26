@@ -15,8 +15,8 @@
 		C4730A5A22C2D7F400E733B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4730A5922C2D7F300E733B5 /* GoogleService-Info.plist */; };
 		C4730A5B22C2D7F400E733B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4730A5922C2D7F300E733B5 /* GoogleService-Info.plist */; };
 		C4730A5D22C2DD9100E733B5 /* ChatRoomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4730A5C22C2DD9100E733B5 /* ChatRoomTableViewController.swift */; };
-		C4730A6322C2E11300E733B5 /* MessageThreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4730A6222C2E11300E733B5 /* MessageThreadController.swift */; };
-		C4730A6722C2E3A200E733B5 /* MessageThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4730A6622C2E3A200E733B5 /* MessageThread.swift */; };
+		C4730A6722C2E3A200E733B5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4730A6622C2E3A200E733B5 /* Message.swift */; };
+		C4730A6922C2EE4F00E733B5 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4730A6822C2EE4F00E733B5 /* MessageController.swift */; };
 		D4DF956497FB15C7D93E5A4C /* Pods_FirebaseChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7076E731ECE0E85508B32DE2 /* Pods_FirebaseChat.framework */; };
 		F54840DE540157B743BDC9E0 /* Pods_FirebaseChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103729CDE314982E9D407D94 /* Pods_FirebaseChatTests.framework */; };
 /* End PBXBuildFile section */
@@ -48,8 +48,8 @@
 		C4730A5022C29E3400E733B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4730A5922C2D7F300E733B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C4730A5C22C2DD9100E733B5 /* ChatRoomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomTableViewController.swift; sourceTree = "<group>"; };
-		C4730A6222C2E11300E733B5 /* MessageThreadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThreadController.swift; sourceTree = "<group>"; };
-		C4730A6622C2E3A200E733B5 /* MessageThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThread.swift; sourceTree = "<group>"; };
+		C4730A6622C2E3A200E733B5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C4730A6822C2EE4F00E733B5 /* MessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
 		F86117068B47E1DFA508F269 /* Pods-FirebaseChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChatTests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseChatTests/Pods-FirebaseChatTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,8 +120,8 @@
 				C4730A5C22C2DD9100E733B5 /* ChatRoomTableViewController.swift */,
 				C4730A3922C29E3300E733B5 /* AppDelegate.swift */,
 				C4730A3D22C29E3300E733B5 /* Main.storyboard */,
-				C4730A6222C2E11300E733B5 /* MessageThreadController.swift */,
-				C4730A6622C2E3A200E733B5 /* MessageThread.swift */,
+				C4730A6622C2E3A200E733B5 /* Message.swift */,
+				C4730A6822C2EE4F00E733B5 /* MessageController.swift */,
 				C4730A4022C29E3400E733B5 /* Assets.xcassets */,
 				C4730A4222C29E3400E733B5 /* LaunchScreen.storyboard */,
 				C4730A4522C29E3400E733B5 /* Info.plist */,
@@ -309,9 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4730A5D22C2DD9100E733B5 /* ChatRoomTableViewController.swift in Sources */,
-				C4730A6722C2E3A200E733B5 /* MessageThread.swift in Sources */,
-				C4730A6322C2E11300E733B5 /* MessageThreadController.swift in Sources */,
+				C4730A6722C2E3A200E733B5 /* Message.swift in Sources */,
 				C4730A3A22C29E3300E733B5 /* AppDelegate.swift in Sources */,
+				C4730A6922C2EE4F00E733B5 /* MessageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
